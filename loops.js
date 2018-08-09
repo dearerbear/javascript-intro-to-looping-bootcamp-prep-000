@@ -27,3 +27,5 @@ function whileLoop(n) {
     return "done"
   }
 }
+
+console.log(whileLoop(27))
