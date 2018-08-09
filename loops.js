@@ -11,8 +11,8 @@
 function forLoop(array) {
   array = []
   i=11;
-  for (let i=-11;  i < 25; i++) {
-    array.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`)
+  for (let i=-11;  i < 24; i++) {
+    array.push(`I am ${i+1} strange loop${i === 0 ? '' : 's'}.`)
   }
   return array
 }
