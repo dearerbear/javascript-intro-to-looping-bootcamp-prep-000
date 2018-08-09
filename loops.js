@@ -10,7 +10,7 @@
 
 function forLoop(array) {
   array = []
-  i=0;
+  i=-11;
   for (let i=0;  i < 25; i++) {
     array.push(`I am ${i+1} strange loop${i === 0 ? '' : 's'}.`)
   }
