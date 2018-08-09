@@ -20,7 +20,7 @@ function forLoop(array) {
 console.log(forLoop())
 
 function whileLoop(n) {
-  let n
+  n = 27
   while (n>0) {
     n--;
   }
