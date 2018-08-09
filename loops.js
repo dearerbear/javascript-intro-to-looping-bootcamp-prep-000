@@ -18,3 +18,10 @@ function forLoop(array) {
 }
 
 console.log(forLoop())
+
+function whileLooop(n) {
+  while (n>0) {
+    n=n--
+    return n
+  }
+}
