@@ -30,4 +30,14 @@ function whileLoop(n) {
   }
 }
 
-console.log(whileLoop(27))
+// console.log(whileLoop(27))
+function incrementVariable() {
+  i = i + 1;
+}
+
+function doWhileLoop(array) {
+ array = []
+  do {
+    
+  } while (array.length > 0 && incrementVariable());
+}
