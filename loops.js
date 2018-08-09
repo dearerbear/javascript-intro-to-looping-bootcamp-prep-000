@@ -22,7 +22,9 @@ console.log(forLoop())
 function whileLoop(n) {
   n = 27
   while (n>0) {
-    n -= 1;
+    console.log(n)
+    n--;
+    return n
   }
   if (n == 0) {
     return "done"
