@@ -19,7 +19,7 @@ function forLoop(array) {
 
 console.log(forLoop())
 
-function whileLooop(n) {
+function whileLoop(n) {
   while (n>0) {
     n=n--
     return n
