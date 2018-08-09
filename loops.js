@@ -37,6 +37,7 @@ function incrementVariable() {
 
 
 function doWhileLoop(array) {
+  array = [1,2,4,5,7,]
   do {
   array.pop();
   } while (array.length > 0);
