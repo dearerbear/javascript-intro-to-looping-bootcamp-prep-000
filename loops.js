@@ -24,7 +24,7 @@ function whileLoop(n) {
   while (n>0) {
     console.log(n)
     n--;
-    return n
+    // return n
   }
   if (n == 0) {
     return "done"
