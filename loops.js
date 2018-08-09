@@ -16,3 +16,5 @@ function forLoop(array) {
   }
   return array
 }
+
+console.log(array)
