@@ -21,7 +21,6 @@ console.log(forLoop())
 
 function whileLoop(n) {
   while (n>0) {
-    n=n--
-    return n
+    return n--
   }
 }
