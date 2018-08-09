@@ -20,6 +20,7 @@ function forLoop(array) {
 console.log(forLoop())
 
 function whileLoop(n) {
+  let n
   while (n>0) {
     n--;
   }
